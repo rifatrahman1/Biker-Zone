@@ -25,38 +25,96 @@
 
 <body class="poppins-font ">
   <!-- navbar section start -->
-<header class="bg-[#264653]">
-  <nav class="flex pt-12 w-10/12 mx-auto">
-      <div class="w-6/12"></div>
-    <ul class="list-none no-underline flex items-center font-medium text-white pl-9 w-50% w-6/12 justify-between">
-      <div class="flex">
-          <a class="pl-10" href="">Home</a>
-          <a class="pl-10" href="">Shop</a>
-          <a class="pl-10" href="">News</a>
-          <a class="pl-10" href="">Contact</a>
+  <header class="bg-[#264653]">
+    <div class="w-10/12 mx-auto">
+      <nav class="flex pt-12 ">
+        <div class="w-6/12"></div>
+        <ul class="list-none no-underline items-center font-medium text-white pl-9 w-50% w-6/12 justify-between lg:flex hidden">
+          <div class="flex">
+            <a class="pl-10" href="">Home</a>
+            <a class="pl-10" href="">Shop</a>
+            <a class="pl-10" href="">News</a>
+            <a class="pl-10" href="">Contact</a>
+          </div>
+          <div class="mr-5">
+            <button class="px-6 py-3 bg-[#E76F51] rounded-md">Login</button>
+          </div>
+        </ul>
+        
+      </nav>
+      <div class="lg:hidden space-y-2 justify-end">
+        <div class="w-8 bg-white h-1"></div>
+        <div class="w-8 bg-white h-1"></div>
+        <div class="w-8 bg-white h-1"></div>
       </div>
-      <div class="mr-5">
-        <button class="px-6 py-3 bg-[#E76F51] rounded-md">Login</button>
-      </div>
-    </ul>
-  </nav>
+    </div>
+    
 
-  <!-- banner section start -->
+    <!-- banner section start -->
 
-  <div class="w-10/12 mx-auto flex items-center pb-24 pt-16 justify-around text-white">
-    <!-- text-content -->
-     <div>
-      <p class="text-[14px] leading-6 font-light">Computer-controlled digital transistorized with electronic advance</p>
-      <h1 class="text-5xl font-semibold mt-4">Honda CBR 300R</h1>
-      <p class="text-[#E0E0E0] leading-6 mt-5">Amet minim mollit non deserunt ullamco est sit aliqua <br> dolor do amet sint. Velit officia consequat duis enim velit <br> mollit. Exercitation veniam consequat sunt nostrud amet.</p> 
-      <button class="px-11 py-3 rounded-md mt-5 bg-[#E76F51]">Purchase</button>
-     </div>
-     <!-- images content -->
+    <div class="w-10/12 mx-auto flex lg:flex-row flex-col items-center pb-24 pt-16 justify-around text-white">
+      <!-- text-content -->
       <div>
+        <p class="text-[14px] leading-6 font-light">Computer-controlled digital transistorized with electronic advance
+        </p>
+        <h1 class="text-5xl font-semibold mt-4">Honda CBR 300R</h1>
+        <p class="text-[#E0E0E0] leading-6 mt-5">Amet minim mollit non deserunt ullamco est sit aliqua <br> dolor do
+          amet sint. Velit officia consequat duis enim velit <br> mollit. Exercitation veniam consequat sunt nostrud
+          amet.</p>
+        <button class="px-11 py-3 rounded-md mt-5 bg-[#E76F51]">Purchase</button>
+      </div>
+      <!-- images content -->
+      <div class="lg:mt-0 mt-14">
         <img src="./images/others/honda-cbr.png" alt="">
       </div>
-  </div>
-</header>
+    </div>
+  </header>
+
+  <main class="w-10/12 mx-auto">
+
+    <!-- feature bike in this year section start -->
+
+    <section>
+      <div class="text-center mt-16">
+        <h1 class="lg:text-5xl text-[32px] font-semibold">Fetured Bikes In This Year</h1>
+        <p class="text-[14px] font-semibold text-[#E76F51] mt-5 ">Best bike collection</p>
+        <div class="h-[2px] w-16 bg-[#E76F51] mx-auto"></div>
+        <div class="flex lg:flex-row flex-col lg:space-y-0 space-y-28 items-center justify-between mt-32">
+          <img src="./images/slider/bike2.png" alt="">
+          <img src="./images/others/extrabike.png" alt="">
+          <img src="./images/slider/bike3.png" alt="">
+        </div>
+      </div>
+    </section>
+
+    <!-- latest section start -->
+
+    <section class="mt-40">
+      <h1 class="text-5xl font-semibold text-[#0A0826] text-center">latest News</h1>
+      <div class="flex flex-col lg:flex-row justify-evenly mt-12">
+        <!-- first bike card -->
+         <div class="border-2 border-gray-100 p-5 rounded-md">
+          <img src="./images/others/latest1.png" alt="">
+          <h2 class="text-[28px] font-semibold text-[#18191F] mt-10">Ducati XDIAVEL S-73</h2>
+          <p class="text-[#6C6C6C] leading-9 mt-3">Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit. Lacus, fermentum amet <br> faucibus sed id nisi lectus at.</p>
+          <button class="py-3 px-5 mt-10 bg-[#E76F51] text-white text-[18px] font-medium rounded-md">Read More</button>
+         </div>
+         <div class="border-2 border-gray-100 p-5 rounded-md">
+          <img src="./images/others/latest1.png" alt="">
+          <h2 class="text-[28px] font-semibold text-[#18191F] mt-10">Ducati XDIAVEL S-73</h2>
+          <p class="text-[#6C6C6C] leading-9 mt-3">Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit. Lacus, fermentum amet <br> faucibus sed id nisi lectus at.</p>
+          <button class="py-3 px-5 mt-10 bg-[#E76F51] text-white text-[18px] font-medium rounded-md">Read More</button>
+         </div>
+         <div class="border-2 border-gray-100 p-5 rounded-md">
+          <img src="./images/others/latest1.png" alt="">
+          <h2 class="text-[28px] font-semibold text-[#18191F] mt-10">Ducati XDIAVEL S-73</h2>
+          <p class="text-[#6C6C6C] leading-9 mt-3">Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit. Lacus, fermentum amet <br> faucibus sed id nisi lectus at.</p>
+          <button class="py-3 px-5 mt-10 bg-[#E76F51] text-white text-[18px] font-medium rounded-md">Read More</button>
+         </div>
+      </div>
+    </section>
+
+  </main>
 </body>
 
 </html>
