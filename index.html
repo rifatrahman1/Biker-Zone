@@ -1,13 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html data-theme = 'light' lang="en">
 
 <head>
+  
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- tailwind css cdn link -->
-  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdn.tailwindcss.com"></script>  
   <!-- daisy ui cdn link-->
-  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
   <!-- poppins font by google font -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -23,13 +25,14 @@
   }
 </style>
 
-<body class="poppins-font ">
+<body class="poppins-font">
   <!-- navbar section start -->
   <header class="bg-[#264653]">
     <div class="w-10/12 mx-auto">
       <nav class="flex pt-12 ">
         <div class="w-6/12"></div>
-        <ul class="list-none no-underline items-center font-medium text-white pl-9 w-50% w-6/12 justify-between lg:flex hidden">
+        <ul
+          class="list-none no-underline items-center font-medium text-white pl-9 w-50% w-6/12 justify-between lg:flex hidden">
           <div class="flex">
             <a class="pl-10" href="">Home</a>
             <a class="pl-10" href="">Shop</a>
@@ -40,7 +43,7 @@
             <button class="px-6 py-3 bg-[#E76F51] rounded-md">Login</button>
           </div>
         </ul>
-        
+
       </nav>
       <div class="lg:hidden space-y-2 justify-end">
         <div class="w-8 bg-white h-1"></div>
@@ -48,7 +51,7 @@
         <div class="w-8 bg-white h-1"></div>
       </div>
     </div>
-    
+
 
     <!-- banner section start -->
 
@@ -91,30 +94,169 @@
 
     <section class="mt-40">
       <h1 class="text-5xl font-semibold text-[#0A0826] text-center">latest News</h1>
-      <div class="flex flex-col lg:flex-row justify-evenly mt-12">
+      <div class="flex flex-col lg:flex-row justify-evenly mt-12 lg:space-y-0 space-y-5">
         <!-- first bike card -->
-         <div class="border-2 border-gray-100 p-5 rounded-md">
+        <div class="border-2 border-gray-100 p-5 rounded-md">
           <img src="./images/others/latest1.png" alt="">
           <h2 class="text-[28px] font-semibold text-[#18191F] mt-10">Ducati XDIAVEL S-73</h2>
-          <p class="text-[#6C6C6C] leading-9 mt-3">Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit. Lacus, fermentum amet <br> faucibus sed id nisi lectus at.</p>
+          <p class="text-[#6C6C6C] leading-9 mt-3">Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit. Lacus,
+            fermentum amet <br> faucibus sed id nisi lectus at.</p>
           <button class="py-3 px-5 mt-10 bg-[#E76F51] text-white text-[18px] font-medium rounded-md">Read More</button>
-         </div>
-         <div class="border-2 border-gray-100 p-5 rounded-md">
-          <img src="./images/others/latest1.png" alt="">
-          <h2 class="text-[28px] font-semibold text-[#18191F] mt-10">Ducati XDIAVEL S-73</h2>
-          <p class="text-[#6C6C6C] leading-9 mt-3">Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit. Lacus, fermentum amet <br> faucibus sed id nisi lectus at.</p>
-          <button class="py-3 px-5 mt-10 bg-[#E76F51] text-white text-[18px] font-medium rounded-md">Read More</button>
-         </div>
-         <div class="border-2 border-gray-100 p-5 rounded-md">
-          <img src="./images/others/latest1.png" alt="">
-          <h2 class="text-[28px] font-semibold text-[#18191F] mt-10">Ducati XDIAVEL S-73</h2>
-          <p class="text-[#6C6C6C] leading-9 mt-3">Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit. Lacus, fermentum amet <br> faucibus sed id nisi lectus at.</p>
-          <button class="py-3 px-5 mt-10 bg-[#E76F51] text-white text-[18px] font-medium rounded-md">Read More</button>
-         </div>
+        </div>
+        <div class="border-2 border-gray-100 p-5 rounded-md">
+          <img src="./images/others/latest2.png" alt="">
+          <h2 class="text-[28px] font-semibold text-[#18191F] mt-10">Motorcycles & Scooters</h2>
+          <p class="text-[#6C6C6C] leading-9 mt-3">Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit. Lacus,
+            fermentum amet <br> faucibus sed id nisi lectus at.</p>
+          <button class="py-3 px-5 mt-10 border border-[#E76F51] text-[#E76F51] text-[18px] font-medium rounded-md">Read
+            More</button>
+        </div>
+        <div class="border-2 border-gray-100 p-5 rounded-md">
+          <img src="./images/others/latest3.png" alt="">
+          <h2 class="text-[28px] font-semibold text-[#18191F] mt-10">2021 Honda CBR500R</h2>
+          <p class="text-[#6C6C6C] leading-9 mt-3">Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit. Lacus,
+            fermentum amet <br> faucibus sed id nisi lectus at.</p>
+          <button class="py-3 px-5 mt-10 border border-[#E76F51] text-[#E76F51] text-[18px] font-medium rounded-md">Read
+            More</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- happy client syas section start -->
+
+    <section class="mt-40">
+      <h1 class="text-5xl font-semibold text-[#0A0826] text-center">Happy <span class="text-[#E76F51]">Clients
+          says</span></h1>
+      <div class="flex flex-col lg:flex-row lg:justify-evenly mt-12 lg:space-y-0 space-y-5 w-full md:w-auto mx-auto">
+        <!-- first bike card -->
+        <div class="border-2 border-gray-100 px-10 py-9 rounded-md text-center h-[510px] w-[330px]">
+          <img class="w-[150px] h-[150px] mx-auto" src="./images/others/user-1.png" alt="">
+          <p class="text-[#6C6C6C] leading-9 mt-8">Slate helps you see how <br>
+            many more days you need <br>
+            to work to reach your financial <br>
+            goal for the month and year.</p>
+          <div class="w-5 flex my-4 mx-auto justify-center gap-3">
+            <img src="./images/icons/star-solid.svg" alt="">
+            <img src="./images/icons/star-solid.svg" alt="">
+            <img src="./images/icons/star-solid.svg" alt="">
+            <img src="./images/icons/star-solid.svg" alt="">
+            <img src="./images/icons/star-regular.svg" alt="">
+          </div>
+          <p class="text-[14px] font-semibold text-[#23A6F0] mt-4">Regina Miles</p>
+          <p class="text-[14px] font-semibold text-[#252B42] mt-4">Banker</p>
+        </div>
+        <div class="border-2 border-gray-100 px-10 py-9 rounded-md text-center h-[510px] w-[330px]">
+          <img class="w-[150px] h-[150px] mx-auto" src="./images/others/user-2.png" alt="">
+          <p class="text-[#6C6C6C] leading-9 mt-8">Slate helps you see how <br>
+            many more days you need <br>
+            to work to reach your financial <br>
+            goal for the month and year.</p>
+          <div class="w-5 flex my-4 mx-auto justify-center gap-3">
+            <img src="./images/icons/star-solid.svg" alt="">
+            <img src="./images/icons/star-solid.svg" alt="">
+            <img src="./images/icons/star-solid.svg" alt="">
+            <img src="./images/icons/star-solid.svg" alt="">
+            <img src="./images/icons/star-regular.svg" alt="">
+          </div>
+          <p class="text-[14px] font-semibold text-[#23A6F0] mt-4">Regina Miles</p>
+          <p class="text-[14px] font-semibold text-[#252B42] mt-4">Banker</p>
+        </div>
+        <div class="border-2 border-gray-100 px-10 py-9 rounded-md text-center h-[510px] w-[330px]">
+          <img class="w-[150px] h-[150px] mx-auto" src="./images/others/user-3.png" alt="">
+          <p class="text-[#6C6C6C] leading-9 mt-8">Slate helps you see how <br>
+            many more days you need <br>
+            to work to reach your financial <br>
+            goal for the month and year.</p>
+          <div class="w-5 flex my-4 mx-auto justify-center gap-3">
+            <img src="./images/icons/star-solid.svg" alt="">
+            <img src="./images/icons/star-solid.svg" alt="">
+            <img src="./images/icons/star-solid.svg" alt="">
+            <img src="./images/icons/star-solid.svg" alt="">
+            <img src="./images/icons/star-regular.svg" alt="">
+          </div>
+          <p class="text-[14px] font-semibold text-[#23A6F0] mt-4">Regina Miles</p>
+          <p class="text-[14px] font-semibold text-[#252B42] mt-4">Banker</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Frequently Asked Questions section start -->
+
+    <section class="mt-40">
+      <h1 class="text-5xl font-semibold text-[#0D0925] text-center">Frequently Asked <span class="text-[#E76F51]">Questions</span></h1>
+      <div class="flex lg:flex-row flex-col justify-evenly items-center mt-28">
+        <div class="">
+          <!-- images content -->
+          <img src="./images/others/faq2.png" alt="">
+        </div>
+        <!-- text content -->
+        <div class="space-y-4 lg:mt-0 mt-20">
+          <div class="collapse collapse-plus border-2 border-gray-200">
+            <input type="radio" name="my-accordion-3" checked="checked" />
+            <div class="collapse-title text-xl font-medium">What are the most important things I should <br>
+              know about riding a bike?</div>
+            <div class="collapse-content">
+              <p>Safety First! Always obey the rules of the road. Obey all traffic signals, signs, <br> and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This <br> will help you be a more focused and legally compliant bike rider. </p>
+            </div>
+          </div>
+          <div class="collapse collapse-plus border-2 border-gray-200">
+            <input type="radio" name="my-accordion-3" />
+            <div class="collapse-title text-xl font-medium">How can I tell if my helmet is old and I need a 
+              new one?</div>
+            <div class="collapse-content">
+              <p>Safety First! Always obey the rules of the road. Obey all traffic signals, signs, <br> and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This <br> will help you be a more focused and legally compliant bike rider.</p>
+            </div>
+          </div>
+          <div class="collapse collapse-plus border-2 border-gray-200">
+            <input type="radio" name="my-accordion-3" />
+            <div class="collapse-title text-xl font-medium">My bike has been in storage is it safe to ride?</div>
+            <div class="collapse-content">
+              <p>Safety First! Always obey the rules of the road. Obey all traffic signals, signs, <br> and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This <br> will help you be a more focused and legally compliant bike rider.</p>
+            </div>
+          </div>
+          <div class="collapse collapse-plus border-2 border-gray-200">
+            <input type="radio" name="my-accordion-3" />
+            <div class="collapse-title text-xl font-medium">What rules should I follow when riding my bike?</div>
+            <div class="collapse-content">
+              <p>Safety First! Always obey the rules of the road. Obey all traffic signals, signs, <br> and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This <br> will help you be a more focused and legally compliant bike rider.</p>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
 
   </main>
+
+  <!-- footer section start -->
+
+  <footer class=" text-white bg-[#0B0D17] mt-36">
+     <div class="w-10/12 mx-auto">
+      <div class="flex lg:flex-row flex-col flex-wrap-reverse justify-between items-center py-20">
+        <!-- text content -->
+        <div>
+          <div class="flex gap-6">
+            <p>Download Now</p>
+            <p>License</p>
+         </div>
+         <div class="flex gap-6 mt-4">
+          <p>About</p>
+          <p>Features</p>
+          <p>Pricing</p>
+          <p>Careers</p>
+          <p>Help</p>
+          <p>Privacy Policy</p>
+         </div>
+         <p class="text-[14px] text-[#D9DBE1] mt-6">© 2020 bike. All rights reserved</p>
+         </div>
+         <!-- images content -->
+         <div class="space-y-4">
+          <p class="text-[18px] font-medium text-[#D9DBE1]">Get the App</p>
+          <img src="./images/others/ios.png" alt="">
+          <img src="./images/others/android.png" alt="">
+         </div>
+      </div>
+     </div>
+  </footer>
 </body>
 
 </html>
